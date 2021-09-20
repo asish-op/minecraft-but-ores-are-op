@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:command",
+    "pools": [{
+            "rolls": 1,
+            "entries": [{
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:experience_bottle",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 16
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:firework_rocket",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 32
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "minecraft:ender_eye",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 4
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "minecraft:ender_pearl",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 5
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

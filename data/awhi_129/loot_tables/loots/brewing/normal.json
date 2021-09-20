@@ -1,0 +1,72 @@
+{
+    "type": "minecraft:command",
+    "pools": [{
+            "rolls": 1,
+            "entries": [{
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "minecraft:potion",
+                    "functions": [{
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Potion of Swiftness\",\"italic\":false}'},CustomPotionEffects:[{Id:1b,Amplifier:2b,Duration:6000}],CustomPotionColor:10333695}"
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:potion",
+                    "functions": [{
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Potion of Leaping\",\"italic\":false}'},CustomPotionEffects:[{Id:8b,Amplifier:2b,Duration:6000}],CustomPotionColor:4976825}"
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "minecraft:potion",
+                    "functions": [{
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Potion of Invisibility\",\"italic\":false}'},CustomPotionEffects:[{Id:14b,Amplifier:2b,Duration:6000}],CustomPotionColor:11243775}"
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "minecraft:potion",
+                    "functions": [{
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Potion of Fire Resistance\",\"italic\":false}'},CustomPotionEffects:[{Id:12b,Amplifier:2b,Duration:6000}],CustomPotionColor:16361137}"
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "minecraft:potion",
+                    "functions": [{
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Potion of Strength\",\"italic\":false}'},CustomPotionEffects:[{Id:5b,Amplifier:2b,Duration:6000}],CustomPotionColor:12466332}"
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:potion",
+                    "functions": [{
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Potion of Regeneration\",\"italic\":false}'},CustomPotionEffects:[{Id:10b,Amplifier:2b,Duration:6000}],CustomPotionColor:15953151}"
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "minecraft:potion",
+                    "functions": [{
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Potion of Fast Mining\",\"italic\":false}'},CustomPotionEffects:[{Id:3b,Amplifier:2b,Duration:6000}],CustomPotionColor:16768307}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

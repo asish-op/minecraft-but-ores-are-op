@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:command",
+    "pools": [{
+            "rolls": 1,
+            "entries": [{
+                    "type": "minecraft:item",
+                    "name": "minecraft:elytra",
+                    "functions": [{
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:10s},{id:\"minecraft:protection\",lvl:10s}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+	"project": {
+		"name": "OP Ores",
+		"id": "129",
+		"author": "Awhikax",
+		"license": "CC BY-NC-ND 4.0"
+	},
+	"version": {
+		"minecraft": "1.17.1",
+		"project": "R1.17.1-1"
+	}
+	"date": {
+		"created": "2021-03-08",
+		"updated": "2021-08-21"
+	}
+}

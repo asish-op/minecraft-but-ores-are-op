@@ -1,0 +1,72 @@
+{
+    "type": "minecraft:command",
+    "pools": [{
+            "rolls": 1,
+            "entries": [{
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "minecraft:experience_bottle",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 8
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "minecraft:firework_rocket",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 16
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:ender_eye",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "minecraft:ender_pearl",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 2
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "minecraft:lava_bucket",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "minecraft:water_bucket",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:spyglass",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "type": "minecraft:command",
+    "pools": [{
+            "rolls": 1,
+            "entries": [{
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "minecraft:obsidian",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 16
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "minecraft:tnt",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 8
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "minecraft:sponge",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 8
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "minecraft:iron_block",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 2
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "minecraft:copper_block",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "minecraft:gold_block",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "minecraft:emerald_block",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_block",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

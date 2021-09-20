@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:command",
+    "pools": [{
+            "rolls": 1,
+            "entries": [{
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "minecraft:golden_apple",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 8
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:enchanted_golden_apple",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

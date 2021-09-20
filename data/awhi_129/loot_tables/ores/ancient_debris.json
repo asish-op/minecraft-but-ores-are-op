@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:block",
+    "pools": [{
+            "rolls": 1,
+            "entries": [{
+                    "type": "minecraft:loot_table",
+                    "weight": 5,
+                    "name": "awhi_129:loots/blocks/rare"
+                }, {
+                    "type": "minecraft:loot_table",
+                    "weight": 5,
+                    "name": "awhi_129:loots/misc/other/rare"
+                }, {
+                    "type": "minecraft:loot_table",
+                    "weight": 3,
+                    "name": "awhi_129:loots/combat/netherite_max"
+                }, {
+                    "type": "minecraft:loot_table",
+                    "weight": 3,
+                    "name": "awhi_129:loots/tools/netherite_max"
+                }, {
+                    "type": "minecraft:loot_table",
+                    "weight": 2,
+                    "name": "awhi_129:loots/combat/weapon_max"
+                }, {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "awhi_129:loots/transportation/rare"
+                }
+            ],
+            "functions": [{
+                    "function": "minecraft:apply_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:ore_drops"
+                }
+            ]
+        }
+    ]
+}

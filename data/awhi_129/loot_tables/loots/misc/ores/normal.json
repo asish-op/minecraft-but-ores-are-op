@@ -1,0 +1,63 @@
+{
+    "type": "minecraft:command",
+    "pools": [{
+            "rolls": 1,
+            "entries": [{
+                    "type": "minecraft:item",
+                    "weight": 16,
+                    "name": "minecraft:iron_ingot",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 8
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "minecraft:copper_ingot",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 6
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "minecraft:gold_ingot",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 4
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "minecraft:emerald",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 4
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "minecraft:diamond",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 2
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:netherite_scrap",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

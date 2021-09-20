@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:block",
+    "pools": [{
+            "rolls": 1,
+            "entries": [{
+                    "type": "minecraft:loot_table",
+                    "name": "awhi_129:ores/ancient_debris"
+                }
+            ],
+            "conditions": [{
+                    "condition": "minecraft:survives_explosion"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:command",
+    "pools": [{
+            "rolls": 1,
+            "entries": [{
+                    "type": "minecraft:item",
+                    "weight": 14,
+                    "name": "minecraft:golden_carrot",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 32
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "minecraft:golden_apple",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 4
+                        }
+                    ]
+                }, {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:enchanted_golden_apple",
+                    "functions": [{
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

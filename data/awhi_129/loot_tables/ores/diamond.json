@@ -1,0 +1,51 @@
+{
+    "type": "minecraft:block",
+    "pools": [{
+            "rolls": 1,
+            "entries": [{
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "awhi_129:loots/brewing/rare"
+                }, {
+                    "type": "minecraft:loot_table",
+                    "weight": 3,
+                    "name": "awhi_129:loots/combat/netherite_30"
+                }, {
+                    "type": "minecraft:loot_table",
+                    "weight": 2,
+                    "name": "awhi_129:loots/food/rare"
+                },  {
+                    "type": "minecraft:loot_table",
+                    "weight": 6,
+                    "name": "awhi_129:loots/blocks/rare"
+                }, {
+                    "type": "minecraft:loot_table",
+                    "weight": 2,
+                    "name": "awhi_129:loots/misc/other/rare"
+                }, {
+                    "type": "minecraft:loot_table",
+                    "weight": 4,
+                    "name": "awhi_129:loots/misc/other/rare"
+                }, {
+                    "type": "minecraft:loot_table",
+                    "weight": 3,
+                    "name": "awhi_129:loots/tools/netherite_30"
+                }, {
+                    "type": "minecraft:loot_table",
+                    "weight": 2,
+                    "name": "awhi_129:loots/combat/weapon_max"
+                }, {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "awhi_129:loots/transportation/normal"
+                }
+            ],
+            "functions": [{
+                    "function": "minecraft:apply_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:ore_drops"
+                }
+            ]
+        }
+    ]
+}

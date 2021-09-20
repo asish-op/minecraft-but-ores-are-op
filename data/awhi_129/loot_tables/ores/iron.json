@@ -1,0 +1,51 @@
+{
+    "type": "minecraft:block",
+    "pools": [{
+            "rolls": 1,
+            "entries": [{
+                    "type": "minecraft:loot_table",
+                    "weight": 2,
+                    "name": "awhi_129:loots/brewing/normal"
+                }, {
+                    "type": "minecraft:loot_table",
+                    "weight": 2,
+                    "name": "awhi_129:loots/combat/diamond_30"
+                }, {
+                    "type": "minecraft:loot_table",
+                    "weight": 2,
+                    "name": "awhi_129:loots/food/normal"
+                }, {
+                    "type": "minecraft:loot_table",
+                    "weight": 8,
+                    "name": "awhi_129:loots/misc/ores/rare"
+                }, {
+                    "type": "minecraft:loot_table",
+                    "weight": 2,
+                    "name": "awhi_129:loots/misc/other/normal"
+                }, {
+                    "type": "minecraft:loot_table",
+                    "weight": 5,
+                    "name": "awhi_129:loots/misc/other/normal"
+                }, {
+                    "type": "minecraft:loot_table",
+                    "weight": 2,
+                    "name": "awhi_129:loots/tools/diamond_30"
+                }, {
+                    "type": "minecraft:loot_table",
+                    "weight": 3,
+                    "name": "awhi_129:loots/combat/iron_30"
+                }, {
+                    "type": "minecraft:loot_table",
+                    "weight": 3,
+                    "name": "awhi_129:loots/tools/iron_30"
+                }
+            ],
+            "functions": [{
+                    "function": "minecraft:apply_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:ore_drops"
+                }
+            ]
+        }
+    ]
+}
